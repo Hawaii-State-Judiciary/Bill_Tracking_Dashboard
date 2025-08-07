@@ -3,5 +3,5 @@ This dashboard tracks bills related to the judiciary.
 
 ## Repository Structure  
 📂 **`app.py/`** – The main python file.   
-📂 **`data/`** – Contains bills data. 
+📂 **`data/`** – Contains bills data.    
 📂 **`assets/`** – Logo and custom settings. 
