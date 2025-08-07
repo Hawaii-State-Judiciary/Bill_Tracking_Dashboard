@@ -1,0 +1,7 @@
+/* Allow text selection in all Dash DataTables */
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner {
+    user-select: text;
+    -moz-user-select: text;
+    -webkit-user-select: text;
+    -ms-user-select: text;
+}
