@@ -33,6 +33,7 @@ df_calendar['relevant'] = df_calendar['bill_number'].map(relevancy_dict)
 # Initialize app
 app = dash.Dash(__name__)
 app.title = "Legislature Bill Tracking"
+server = app.server
 
 # Dropdown options
 bill_number_options = [{'label': num, 'value': num} for num in df_info['bill_number'].unique()]
